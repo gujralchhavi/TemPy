@@ -115,7 +115,7 @@ class TestTag(unittest.TestCase):
                 },
                 link: {'color': 'grey'},
                 link_with_class: {'color': 'grey'},
-                A: {'color': 'yellow'}
+                A: {'color': 'blue'}
             }
         },
             '#myid': {'color': 'purple'},
@@ -242,3 +242,4 @@ class TestTag(unittest.TestCase):
 
         css.clear()
         self.assertEqual({}, css.attrs['css_attrs'])
+        # My Changes
